@@ -1,4 +1,7 @@
 <?
+
+  # This is an example configuration that can be used with the vagrant instance; simply remove .example from the filename
+    
   $user="dmap";
   $password="changeme";
   $database="dmillar_cartography";
