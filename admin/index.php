@@ -82,10 +82,10 @@
   <head>
     <title>Admin Area | Dave's Mapper | RPG Map Generator</title>
     <meta name="robots" content="noindex,nofollow" />
-    <? include "/home/dmillar/public_html/includes/head.php"; ?>
+    <? include "../includes/head.php"; ?>
   </head>
   <body>
-    <? include "/home/dmillar/public_html/includes/magic.php"; ?>
+    <? include "../includes/magic.php"; ?>
     <section id="sidepanel">
 		
 		</section>
