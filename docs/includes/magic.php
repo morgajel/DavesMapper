@@ -5,7 +5,7 @@
 		<a class="main" href="/supporters">About Us</a>
 		<div class="downpanel"><?
 			if (!$dbestablished) {
-				include "../cgi-bin/db_start.php";
+				include "../../db/db_start.php";
 			}
 			$navdata = mysql_query("SELECT url_slug, name FROM dmillar_cartography.artists ORDER BY name ASC");
 			if (mysql_num_rows($navdata) > 0) {

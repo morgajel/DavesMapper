@@ -1,4 +1,4 @@
-<? include "cgi-bin/db_start.php"; ?>
+<? include "../db/db_start.php"; ?>
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
 	<head>
@@ -61,4 +61,4 @@
 		<? include "includes/footer.php"; ?>
 	</body>
 </html>
-<? include "cgi-bin/db_end.php"; ?>
+<? include "../db/db_end.php"; ?>

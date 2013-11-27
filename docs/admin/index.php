@@ -1,5 +1,5 @@
 <?
-	include "../cgi-bin/db_start.php";
+	include "../../db/db_start.php";
 	session_start();
 	
 	function bounceOut(){ header("Location: http://davesmapper.com/admin"); exit; }
@@ -368,4 +368,4 @@
 		</script>
   </body>
 </html>
-<? include "../cgi-bin/db_end.php"; ?>
+<? include "../../db/db_end.php"; ?>

@@ -3,7 +3,7 @@
 	header('Expires: Wed, 8 Jun 1988 05:00:00 GMT');
 	header('Content-type: application/json');
 	
-	include "../cgi-bin/db_start.php";
+	include "../../db/db_start.php";
 	$carto = intval($_REQUEST['cart_id']);
 	$ttype = intval($_REQUEST['ttype']);
 	$mtype = intval($_REQUEST['mtype']);
@@ -16,5 +16,5 @@
 	}
 	echo '{' . implode(',',$ninjaarr) . '}';
 	
-	include "../cgi-bin/db_end.php";
+	include "../../db/db_end.php";
 ?>

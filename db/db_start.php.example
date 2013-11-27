@@ -1,0 +1,7 @@
+<?
+  $user="dmap";
+  $password="changeme";
+  $database="dmillar_cartography";
+  $dbestablished = mysql_connect('localhost',$user,$password);
+  @mysql_select_db($database) or die( "Unable to select database");
+?>

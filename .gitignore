@@ -211,5 +211,6 @@ pip-log.txt
 #Translations
 *.mo
 .vagrant/
+db/db_start.php
 #Mr Developer
 .mr.developer.cfg
