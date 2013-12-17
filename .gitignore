@@ -214,3 +214,4 @@ pip-log.txt
 db/db_start.php
 #Mr Developer
 .mr.developer.cfg
+puppet/hiera.yaml
